@@ -1,0 +1,145 @@
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\selfless.Web.dll.config
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\selfless.Web.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\selfless.Web.pdb
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\EntityFramework.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\EntityFramework.SqlServer.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\Microsoft.Owin.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\Newtonsoft.Json.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\System.Net.Http.Formatting.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\System.Web.Http.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\System.Web.Http.WebHost.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\System.Web.Mvc.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\EntityFramework.xml
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\EntityFramework.SqlServer.xml
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\Microsoft.Owin.xml
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\System.Net.Http.Formatting.xml
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\System.Web.Http.xml
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\bin\System.Web.Http.WebHost.xml
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\obj\Debug\selfless.Web.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\obj\Debug\selfless.Web.dll
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\obj\Debug\selfless.Web.pdb
+C:\Users\Guilherme Lima\Desktop\Nova pasta\Teste\Trabalho POO\MVCTeste\obj\Debug\selfless.Web.csprojResolveAssemblyReference.cache
+C:\selfless\obj\Debug\selfless.Web.csproj.CoreCompileInputs.cache
+C:\selfless\bin\selfless.Web.dll.config
+C:\selfless\bin\selfless.Web.dll
+C:\selfless\bin\selfless.Web.pdb
+C:\selfless\bin\Antlr3.Runtime.dll
+C:\selfless\bin\EntityFramework.dll
+C:\selfless\bin\EntityFramework.SqlServer.dll
+C:\selfless\bin\Microsoft.AspNet.Identity.Core.dll
+C:\selfless\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\selfless\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\selfless\bin\Microsoft.Owin.dll
+C:\selfless\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\selfless\bin\Microsoft.Owin.Security.Cookies.dll
+C:\selfless\bin\Microsoft.Owin.Security.dll
+C:\selfless\bin\Microsoft.Owin.Security.Facebook.dll
+C:\selfless\bin\Microsoft.Owin.Security.Google.dll
+C:\selfless\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\selfless\bin\Microsoft.Owin.Security.OAuth.dll
+C:\selfless\bin\Microsoft.Owin.Security.Twitter.dll
+C:\selfless\bin\Microsoft.Web.Infrastructure.dll
+C:\selfless\bin\Newtonsoft.Json.dll
+C:\selfless\bin\System.Net.Http.Formatting.dll
+C:\selfless\bin\System.Web.Helpers.dll
+C:\selfless\bin\System.Web.Http.dll
+C:\selfless\bin\System.Web.Http.WebHost.dll
+C:\selfless\bin\System.Web.Mvc.dll
+C:\selfless\bin\System.Web.Optimization.dll
+C:\selfless\bin\System.Web.Razor.dll
+C:\selfless\bin\System.Web.WebPages.Deployment.dll
+C:\selfless\bin\System.Web.WebPages.dll
+C:\selfless\bin\System.Web.WebPages.Razor.dll
+C:\selfless\bin\WebGrease.dll
+C:\selfless\bin\Antlr3.Runtime.pdb
+C:\selfless\bin\EntityFramework.xml
+C:\selfless\bin\EntityFramework.SqlServer.xml
+C:\selfless\bin\Microsoft.AspNet.Identity.Core.xml
+C:\selfless\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\selfless\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\selfless\bin\Microsoft.Owin.xml
+C:\selfless\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\selfless\bin\Microsoft.Owin.Security.xml
+C:\selfless\bin\Microsoft.Owin.Security.Cookies.xml
+C:\selfless\bin\Microsoft.Owin.Security.Facebook.xml
+C:\selfless\bin\Microsoft.Owin.Security.Google.xml
+C:\selfless\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\selfless\bin\Microsoft.Owin.Security.OAuth.xml
+C:\selfless\bin\Microsoft.Owin.Security.Twitter.xml
+C:\selfless\bin\Newtonsoft.Json.xml
+C:\selfless\bin\System.Net.Http.Formatting.xml
+C:\selfless\bin\System.Web.Helpers.xml
+C:\selfless\bin\System.Web.Http.xml
+C:\selfless\bin\System.Web.Http.WebHost.xml
+C:\selfless\bin\System.Web.Mvc.xml
+C:\selfless\bin\System.Web.Optimization.xml
+C:\selfless\bin\System.Web.Razor.xml
+C:\selfless\bin\System.Web.WebPages.xml
+C:\selfless\bin\System.Web.WebPages.Deployment.xml
+C:\selfless\bin\System.Web.WebPages.Razor.xml
+C:\selfless\bin\Microsoft.Web.Infrastructure.xml
+C:\selfless\obj\Debug\selfless.Web.dll
+C:\selfless\obj\Debug\selfless.Web.pdb
+C:\selfless\obj\Debug\selfless.Web.csprojResolveAssemblyReference.cache
+D:\selfless\bin\selfless.Web.dll.config
+D:\selfless\bin\selfless.Web.dll
+D:\selfless\bin\selfless.Web.pdb
+D:\selfless\bin\Antlr3.Runtime.dll
+D:\selfless\bin\EntityFramework.dll
+D:\selfless\bin\EntityFramework.SqlServer.dll
+D:\selfless\bin\Microsoft.AspNet.Identity.Core.dll
+D:\selfless\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\selfless\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\selfless\bin\Microsoft.Owin.dll
+D:\selfless\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\selfless\bin\Microsoft.Owin.Security.Cookies.dll
+D:\selfless\bin\Microsoft.Owin.Security.dll
+D:\selfless\bin\Microsoft.Owin.Security.Facebook.dll
+D:\selfless\bin\Microsoft.Owin.Security.Google.dll
+D:\selfless\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\selfless\bin\Microsoft.Owin.Security.OAuth.dll
+D:\selfless\bin\Microsoft.Owin.Security.Twitter.dll
+D:\selfless\bin\Microsoft.Web.Infrastructure.dll
+D:\selfless\bin\Newtonsoft.Json.dll
+D:\selfless\bin\System.Net.Http.Formatting.dll
+D:\selfless\bin\System.Web.Helpers.dll
+D:\selfless\bin\System.Web.Http.dll
+D:\selfless\bin\System.Web.Http.WebHost.dll
+D:\selfless\bin\System.Web.Mvc.dll
+D:\selfless\bin\System.Web.Optimization.dll
+D:\selfless\bin\System.Web.Razor.dll
+D:\selfless\bin\System.Web.WebPages.Deployment.dll
+D:\selfless\bin\System.Web.WebPages.dll
+D:\selfless\bin\System.Web.WebPages.Razor.dll
+D:\selfless\bin\WebGrease.dll
+D:\selfless\bin\Antlr3.Runtime.pdb
+D:\selfless\bin\EntityFramework.xml
+D:\selfless\bin\EntityFramework.SqlServer.xml
+D:\selfless\bin\Microsoft.AspNet.Identity.Core.xml
+D:\selfless\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\selfless\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\selfless\bin\Microsoft.Owin.xml
+D:\selfless\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\selfless\bin\Microsoft.Owin.Security.xml
+D:\selfless\bin\Microsoft.Owin.Security.Cookies.xml
+D:\selfless\bin\Microsoft.Owin.Security.Facebook.xml
+D:\selfless\bin\Microsoft.Owin.Security.Google.xml
+D:\selfless\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\selfless\bin\Microsoft.Owin.Security.OAuth.xml
+D:\selfless\bin\Microsoft.Owin.Security.Twitter.xml
+D:\selfless\bin\Newtonsoft.Json.xml
+D:\selfless\bin\System.Net.Http.Formatting.xml
+D:\selfless\bin\System.Web.Helpers.xml
+D:\selfless\bin\System.Web.Http.xml
+D:\selfless\bin\System.Web.Http.WebHost.xml
+D:\selfless\bin\System.Web.Mvc.xml
+D:\selfless\bin\System.Web.Optimization.xml
+D:\selfless\bin\System.Web.Razor.xml
+D:\selfless\bin\System.Web.WebPages.xml
+D:\selfless\bin\System.Web.WebPages.Deployment.xml
+D:\selfless\bin\System.Web.WebPages.Razor.xml
+D:\selfless\bin\Microsoft.Web.Infrastructure.xml
+D:\selfless\obj\Debug\selfless.Web.csprojResolveAssemblyReference.cache
+D:\selfless\obj\Debug\selfless.Web.csproj.CoreCompileInputs.cache
+D:\selfless\obj\Debug\selfless.Web.dll
+D:\selfless\obj\Debug\selfless.Web.pdb

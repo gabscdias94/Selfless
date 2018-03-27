@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "Perfil";
+}
+
+@if (Session["id"] != null)
+{
+    <h4>Bem vindo, sr. @Session["email"].ToString()</h4>
+}
+

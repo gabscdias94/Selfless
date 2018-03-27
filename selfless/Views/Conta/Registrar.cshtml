@@ -1,0 +1,173 @@
+﻿@{
+    ViewBag.Title = "Registrar";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SELFLESS | Registrar</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="~/Content/animate.css" rel="stylesheet">
+    <link href="~/Content/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+    <form id="form-cadastro">
+        <div class="row">
+            <div class="img-responsive active">
+                <div class="middle-box text-center loginscreen   animated fadeInLeft">
+                    <div class="img-responsive">
+                        <p class="logo-name">selfless+</p>
+                    </div>
+                    <h3>Registrar</h3>
+                    <h4><strong>Crie sua conta e faça o bem.</strong></h4>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" data-mask="99999999999999" placeholder="CNPJ" id="cnpj" name="cnpj" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Instituição" id="nome" name="nome" required="">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" id="email" name="email" required="">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Senha" id="senha" name="senha" required="">
+                    </div>
+
+
+                    <button type="button" name="registrar" id="registrar" class="btn btn-sm btn-primary" value="Registrar">Registrar</button>
+                    <p class="text-muted text-center"><small>Já possui cadastro?</small></p>
+                    <a class="btn btn-sm btn-default btn-block" href="@Url.Action("Login", "Conta")">Entrar</a>
+
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script src="~/Scripts/plugins/toastr/toastr.min.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+    <script src="~/Scripts/plugins/jasny/jasny-bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="~/Content/plugins/jasny/jasny-bootstrap.min.css" />
+    <link href="~/Content/plugins/toastr/toastr.min.css" rel="stylesheet" />
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            function limpa_cnpj() {
+                $("#cnpj").val("");
+            }
+
+            $("#cnpj").blur(function () {
+                var cnpj = $(this).val().replace(/\D/g, '');
+
+                if (cnpj != "") {
+                    var validar = /^[0-9]{14}$/;
+                    if (validar.test(cnpj)) {
+                        $("nome").val("...");
+                        crossDomain: true,
+
+                            $.ajax({
+                                url: 'https://www.receitaws.com.br/v1/cnpj/' + cnpj,
+                                type: 'GET',
+                                crossDomain: true,
+                                dataType: 'JSONP',
+                        }).done(function (data) {
+                                debugger
+                                if (data.message != "CNPJ inválido") {
+                                    $("#nome").val(data.nome);
+                                }
+                                else {
+                                    toastr.error("CNPJ inválido.", vToastOptions.options = vToastOptions);
+                                }
+                            }).fail(function (err) {
+                                alert("CNPJ inválido.");
+                            })
+
+                    }
+                    else {
+                        toastr.error("Formato de CNPJ inválido.", vToastOptions.options = vToastOptions);
+                    }
+                }
+                else {
+                    limpa_cnpj();
+                }
+            });
+
+            $("button#registrar").on('click', function () {
+
+                var form = $(this);
+                var nome = $("#nome").val();
+                var email = $("#email").val();
+                var senha = $("#senha").val();
+                var cnpj = $("#cnpj").val();
+                var cadastro = {
+                    nome: nome,
+                    email: email,
+                    senha: senha,
+                    cnpj: cnpj,
+
+                };
+
+                var dataJson = JSON.stringify(cadastro);
+                if (nome == "" || cnpj == "" || senha == "" || email == "")
+                    return toastr.warning("É necessário preencher os campos", vToastOptions.options = vToastOptions);
+                $.ajax({
+                    type: 'POST',
+                    contentType: "application/json",
+                    url: "/Conta/Registrar",
+                    data: dataJson,
+                    dataType: 'JSON'
+                }).done(function (data) {
+                    toastr.success("Usuário registrado com sucesso!", vToastOptions.options = vToastOptions);
+                }).fail(function (err) {
+                    toastr.error("Erro ao registrar usuário!", vToastOptions.options = vToastOptions);
+                })
+            });
+        });
+
+
+
+        //})
+
+
+
+
+        var vToastOptions = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-full-width",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "100000",
+            "hideDuration": "100000",
+            "timeOut": "300000",
+            "extendedTimeOut": "300000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+
+    </script>
+
+
+
+
+</body>
+</html>
